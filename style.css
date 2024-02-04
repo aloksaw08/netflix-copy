@@ -1,0 +1,517 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0.9, 0, 0, 0.8)), url("https://assets.nflxext.com/ffe/siteui/vlv3/b4c7f092-0488-48b7-854d-ca055a84fb4f/5b22968d-b94f-44ec-bea3-45dcf457f29e/IN-en-20231204-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* Navbar section */
+.logo {
+    margin-right: 50rem;
+}
+
+.navbar {
+    height: 120px;
+
+    padding: 0 2rem;
+    width: 93%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navbar img {
+    height: 150px;
+    size: bolder;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 5rem;
+    background-color: red;
+    border-radius: 2px;
+
+
+
+}
+
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.button:hover {
+    background-color: rgb(186, 30, 30);
+}
+
+.select-box {
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+
+}
+
+option {
+    background-color: blue;
+    color: white;
+}
+
+.nav-button {
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Main section */
+.context {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    width: 40%;
+    color: aliceblue;
+
+}
+
+.context h1 {
+    font-size: 55px;
+    font-family: 'Archivo Black', sans-serif;
+
+
+}
+
+.context h4 {
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.information {
+    margin-top: 30px;
+    color: rgb(133, 125, 116);
+}
+
+.search-section {
+    display: flex;
+    gap: 10px;
+
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    border-radius: 4px;
+    opacity: 10.5;
+    height: 3.5rem;
+    width: 25rem;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+
+input::placeholder {
+    font-weight: 600;
+    font-size: large;
+    color: darkgray;
+
+}
+
+.button2 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 12rem;
+    background-color: red;
+    border-radius: 4px;
+}
+
+.button2 a {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.button2:hover {
+    background-color: rgb(186, 30, 30);
+
+}
+
+.second-containt {
+    height: 80vh;
+
+}
+
+.box1 {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+#b2 {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.content-box1 {
+    width: 40%;
+    margin-right: 10rem;
+    margin-left: 10rem;
+
+}
+
+.content-box1 h1 {
+    font-size: 50px;
+}
+
+.box1 img {
+    size: 50px;
+}
+
+.box1 img:hover {
+
+    background: url("images.jpeg") no-repeat center center/cover;
+
+
+}
+
+.box2 {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+
+#b3 {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+#b4 {
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+
+.box3 {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.image2 {
+    size: 50px;
+}
+
+.content-box3 {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10rem;
+
+}
+
+#b5 {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#b6 {
+    font-size: 50px;
+}
+
+.box4 {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+
+}
+
+.content-box4 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    width: 50%;
+}
+
+#b7 {
+    font-size: 50px;
+}
+
+#b8 {
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.questions-box {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: black;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    gap: 10px;
+}
+
+#b9 {
+    font-size: 50px;
+
+}
+
+.questions1 {
+    height: 10vh;
+    width: 80%;
+    border: 2px solid white;
+    background-color: #3d3636;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.questions1 p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+    margin-left: 15px;
+
+}
+
+.questions2 p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.questions3 p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+
+    margin-left: 15px;
+}
+
+.questions4 p {
+    margin-top: 20px;
+
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.questions5 p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.questions6 p {
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.questions1:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+
+.questions2 {
+    height: 10vh;
+    width: 80%;
+    border: 2px solid white;
+    background-color: #3d3636;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.questions2:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+
+.questions3 {
+    height: 10vh;
+    width: 80%;
+    border: 2px solid white;
+    background-color: #3d3636;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.questions3:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+.questions4 {
+    height: 10vh;
+    width: 80%;
+    background-color: #3d3636;
+    font-family: 'Montserrat', sans-serif;
+
+    border: 2px solid white;
+}
+
+.questions4:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+
+.questions5 {
+    height: 10vh;
+    width: 80%;
+    background-color: #3d3636;
+    border: 2px solid white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column start;
+
+
+
+}
+
+.questions5:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+
+.questions6 {
+    height: 10vh;
+    width: 80%;
+    border: 2px solid white;
+    background-color: #3d3636;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.questions6:hover {
+    height: 10.5vh;
+    width: 82%;
+    transition: 0.3s all;
+}
+
+#b10 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* footer section */
+.footer-sec {
+    border-top: 10px solid #3d3636;
+    border-bottom: 10px solid #3d3636;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: black;
+    color: white;
+    gap: 40px;
+
+}
+
+.footer-sec a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #b0a1a1;
+    font-size: 18px;
+}
+
+.footer-sec a:hover {
+    color: rgb(213, 226, 199);
+    text-decoration: underline rgb(213, 226, 199);
+}
+
+.last-box1 {
+    gap: 10px;
+    margin-right: 8rem;
+}
+
+.last-box1 a {
+    margin-bottom: 13px;
+}
+
+.last-box2 {
+    margin-right: 8rem;
+}
+
+.last-box2 a {
+    margin-bottom: 13px;
+}
+
+.last-box3 {
+    margin-right: 8rem;
+}
+
+.last-box3 a {
+    margin-bottom: 13px;
+}
+
+.last-box4 {
+    margin-right: 8rem;
+}
+
+.last-box4 a {
+    margin-bottom: 13px;
+}
