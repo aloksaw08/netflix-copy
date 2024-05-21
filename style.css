@@ -111,6 +111,7 @@ option {
 }
 
 input {
+    margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 22px;
     border-radius: 4px;
